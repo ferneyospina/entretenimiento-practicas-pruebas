@@ -67,7 +67,7 @@ ul{
 
 @media screen and (max-width:480px){
     body{
-        background: red;
+        
         width: auto;
     }
 }
