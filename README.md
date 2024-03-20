@@ -1,5 +1,3 @@
-_config.yml
-
 <!DOCTYPE html>
 ~ $ git clone https://github.com/ nombre de usuario / nombre de usuario .github.io
 ~ $ cd nombre de usuario .github.io
