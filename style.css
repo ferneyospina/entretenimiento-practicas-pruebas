@@ -1,0 +1,74 @@
+body {
+    background-image: url("img/Fondo Entretenimiento.avif");
+    height: 500;
+}
+
+.producto1 {
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.tabla2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+ul{
+    display: inline-block;
+    margin-right: 15%;
+    
+}
+
+.imagenDiferenciales{
+    width: 20%;
+    position: absolute;
+    top: 215px;
+    right: 750px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 25px color #000000;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.3;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    background: #cccccc;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.productos h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.precio{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background: red;
+        width: auto;
+    }
+}
+
